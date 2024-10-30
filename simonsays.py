@@ -46,8 +46,8 @@ green_square = Button(green, (225, 25, 200, 200))
 blue_square = Button(blue, (25, 225, 200, 200))
 yellow_square = Button(yellow, (225, 225, 200, 200))
 pygame.display.update()
-beep_sound = pygame.mixer.Sound('C:\\Users\\Bhavya\\OneDrive\\codes\\python\\simon-says\\beep.wav')
-intro_sound = pygame.mixer.Sound('C:\\Users\\Bhavya\\OneDrive\\codes\\python\\simon-says\\intro.wav')
+beep_sound = pygame.mixer.Sound("beep.wav")
+intro_sound = pygame.mixer.Sound('intro.wav')
 def intro():
     intro_sound.play()
 def beep():
